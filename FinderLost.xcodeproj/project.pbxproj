@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B47CDF925A51BD0003AC18C /* FinderLostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B47CDE625A51BCD003AC18C /* FinderLostApp.swift */; };
-		1B47CDFB25A51BD0003AC18C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B47CDE725A51BCD003AC18C /* ContentView.swift */; };
-		1B47CDFD25A51BD0003AC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B47CDE825A51BD0003AC18C /* Assets.xcassets */; };
+		1B36412925A520F6008EAC67 /* FinderLostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36412825A520F6008EAC67 /* FinderLostApp.swift */; };
+		1B36412B25A520F6008EAC67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36412A25A520F6008EAC67 /* ContentView.swift */; };
+		1B36412D25A520F9008EAC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B36412C25A520F9008EAC67 /* Assets.xcassets */; };
+		1B36413025A520F9008EAC67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B36412F25A520F9008EAC67 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B47CDE625A51BCD003AC18C /* FinderLostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderLostApp.swift; sourceTree = "<group>"; };
-		1B47CDE725A51BCD003AC18C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1B47CDE825A51BD0003AC18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B47CDED25A51BD0003AC18C /* FinderLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B47CDF025A51BD0003AC18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B36412525A520F6008EAC67 /* FinderLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B36412825A520F6008EAC67 /* FinderLostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderLostApp.swift; sourceTree = "<group>"; };
+		1B36412A25A520F6008EAC67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B36412C25A520F9008EAC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B36412F25A520F9008EAC67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B36413125A520F9008EAC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B47CDEA25A51BD0003AC18C /* Frameworks */ = {
+		1B36412225A520F6008EAC67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,76 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B47CDE025A51BCD003AC18C = {
+		1B36411C25A520F6008EAC67 = {
 			isa = PBXGroup;
 			children = (
-				1B47CDE525A51BCD003AC18C /* Shared */,
-				1B47CDEF25A51BD0003AC18C /* iOS */,
-				1B47CDEE25A51BD0003AC18C /* Products */,
+				1B36412725A520F6008EAC67 /* FinderLost */,
+				1B36412625A520F6008EAC67 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1B47CDE525A51BCD003AC18C /* Shared */ = {
+		1B36412625A520F6008EAC67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B47CDE625A51BCD003AC18C /* FinderLostApp.swift */,
-				1B47CDE725A51BCD003AC18C /* ContentView.swift */,
-				1B47CDE825A51BD0003AC18C /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		1B47CDEE25A51BD0003AC18C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B47CDED25A51BD0003AC18C /* FinderLost.app */,
+				1B36412525A520F6008EAC67 /* FinderLost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B47CDEF25A51BD0003AC18C /* iOS */ = {
+		1B36412725A520F6008EAC67 /* FinderLost */ = {
 			isa = PBXGroup;
 			children = (
-				1B47CDF025A51BD0003AC18C /* Info.plist */,
+				1B36412825A520F6008EAC67 /* FinderLostApp.swift */,
+				1B36412A25A520F6008EAC67 /* ContentView.swift */,
+				1B36412C25A520F9008EAC67 /* Assets.xcassets */,
+				1B36413125A520F9008EAC67 /* Info.plist */,
+				1B36412E25A520F9008EAC67 /* Preview Content */,
 			);
-			path = iOS;
+			path = FinderLost;
+			sourceTree = "<group>";
+		};
+		1B36412E25A520F9008EAC67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B36412F25A520F9008EAC67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B47CDEC25A51BD0003AC18C /* FinderLost (iOS) */ = {
+		1B36412425A520F6008EAC67 /* FinderLost */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B47CE0125A51BD0003AC18C /* Build configuration list for PBXNativeTarget "FinderLost (iOS)" */;
+			buildConfigurationList = 1B36413425A520F9008EAC67 /* Build configuration list for PBXNativeTarget "FinderLost" */;
 			buildPhases = (
-				1B47CDE925A51BD0003AC18C /* Sources */,
-				1B47CDEA25A51BD0003AC18C /* Frameworks */,
-				1B47CDEB25A51BD0003AC18C /* Resources */,
+				1B36412125A520F6008EAC67 /* Sources */,
+				1B36412225A520F6008EAC67 /* Frameworks */,
+				1B36412325A520F6008EAC67 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "FinderLost (iOS)";
-			productName = "FinderLost (iOS)";
-			productReference = 1B47CDED25A51BD0003AC18C /* FinderLost.app */;
+			name = FinderLost;
+			productName = FinderLost;
+			productReference = 1B36412525A520F6008EAC67 /* FinderLost.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1B47CDE125A51BCD003AC18C /* Project object */ = {
+		1B36411D25A520F6008EAC67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					1B47CDEC25A51BD0003AC18C = {
+					1B36412425A520F6008EAC67 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 1B47CDE425A51BCD003AC18C /* Build configuration list for PBXProject "FinderLost" */;
+			buildConfigurationList = 1B36412025A520F6008EAC67 /* Build configuration list for PBXProject "FinderLost" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,41 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 1B47CDE025A51BCD003AC18C;
-			productRefGroup = 1B47CDEE25A51BD0003AC18C /* Products */;
+			mainGroup = 1B36411C25A520F6008EAC67;
+			productRefGroup = 1B36412625A520F6008EAC67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B47CDEC25A51BD0003AC18C /* FinderLost (iOS) */,
+				1B36412425A520F6008EAC67 /* FinderLost */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B47CDEB25A51BD0003AC18C /* Resources */ = {
+		1B36412325A520F6008EAC67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B47CDFD25A51BD0003AC18C /* Assets.xcassets in Resources */,
+				1B36413025A520F9008EAC67 /* Preview Assets.xcassets in Resources */,
+				1B36412D25A520F9008EAC67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B47CDE925A51BD0003AC18C /* Sources */ = {
+		1B36412125A520F6008EAC67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B47CDFB25A51BD0003AC18C /* ContentView.swift in Sources */,
-				1B47CDF925A51BD0003AC18C /* FinderLostApp.swift in Sources */,
+				1B36412B25A520F6008EAC67 /* ContentView.swift in Sources */,
+				1B36412925A520F6008EAC67 /* FinderLostApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1B47CDFF25A51BD0003AC18C /* Debug */ = {
+		1B36413225A520F9008EAC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,12 +201,13 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1B47CE0025A51BD0003AC18C /* Release */ = {
+		1B36413325A520F9008EAC67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,78 +255,79 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1B47CE0225A51BD0003AC18C /* Debug */ = {
+		1B36413525A520F9008EAC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FinderLost/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y8G83BS5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = FinderLost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost;
-				PRODUCT_NAME = FinderLost;
-				SDKROOT = iphoneos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost.FinderLost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1B47CE0325A51BD0003AC18C /* Release */ = {
+		1B36413625A520F9008EAC67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FinderLost/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y8G83BS5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = FinderLost/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost;
-				PRODUCT_NAME = FinderLost;
-				SDKROOT = iphoneos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost.FinderLost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B47CDE425A51BCD003AC18C /* Build configuration list for PBXProject "FinderLost" */ = {
+		1B36412025A520F6008EAC67 /* Build configuration list for PBXProject "FinderLost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B47CDFF25A51BD0003AC18C /* Debug */,
-				1B47CE0025A51BD0003AC18C /* Release */,
+				1B36413225A520F9008EAC67 /* Debug */,
+				1B36413325A520F9008EAC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B47CE0125A51BD0003AC18C /* Build configuration list for PBXNativeTarget "FinderLost (iOS)" */ = {
+		1B36413425A520F9008EAC67 /* Build configuration list for PBXNativeTarget "FinderLost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B47CE0225A51BD0003AC18C /* Debug */,
-				1B47CE0325A51BD0003AC18C /* Release */,
+				1B36413525A520F9008EAC67 /* Debug */,
+				1B36413625A520F9008EAC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1B47CDE125A51BCD003AC18C /* Project object */;
+	rootObject = 1B36411D25A520F6008EAC67 /* Project object */;
 }

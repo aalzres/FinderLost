@@ -1,6 +1,6 @@
 //
 //  FinderLostApp.swift
-//  Shared
+//  FinderLost
 //
 //  Created by Andrés Felipe Alzate Restrepo on 5/1/21.
 //
