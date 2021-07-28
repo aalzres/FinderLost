@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B36412925A520F6008EAC67 /* FinderLostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36412825A520F6008EAC67 /* FinderLostApp.swift */; };
-		1B36412B25A520F6008EAC67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36412A25A520F6008EAC67 /* ContentView.swift */; };
+		1B36412925A520F6008EAC67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36412825A520F6008EAC67 /* SceneDelegate.swift */; };
 		1B36412D25A520F9008EAC67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B36412C25A520F9008EAC67 /* Assets.xcassets */; };
 		1B36413025A520F9008EAC67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B36412F25A520F9008EAC67 /* Preview Assets.xcassets */; };
+		55B6CB9426B1C467000A973F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9326B1C467000A973F /* AppDelegate.swift */; };
+		A66FCB8BA56B8A16FB8FE4ED /* Pods_FinderLost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B600CFD4640DC8E836F3E39 /* Pods_FinderLost.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B36412525A520F6008EAC67 /* FinderLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B36412825A520F6008EAC67 /* FinderLostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderLostApp.swift; sourceTree = "<group>"; };
-		1B36412A25A520F6008EAC67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B36412825A520F6008EAC67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B36412C25A520F9008EAC67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B36412F25A520F9008EAC67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B36413125A520F9008EAC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B600CFD4640DC8E836F3E39 /* Pods_FinderLost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinderLost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B6CB9326B1C467000A973F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		792E42DCFD2D37EDF3C399EA /* Pods-FinderLost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderLost.debug.xcconfig"; path = "Target Support Files/Pods-FinderLost/Pods-FinderLost.debug.xcconfig"; sourceTree = "<group>"; };
+		DF30EF69FCABBC92A95FB5E5 /* Pods-FinderLost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderLost.release.xcconfig"; path = "Target Support Files/Pods-FinderLost/Pods-FinderLost.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66FCB8BA56B8A16FB8FE4ED /* Pods_FinderLost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,8 @@
 			children = (
 				1B36412725A520F6008EAC67 /* FinderLost */,
 				1B36412625A520F6008EAC67 /* Products */,
+				58898B8ACB680B23B0A791B5 /* Pods */,
+				F914FEEDA2F567E31CA38ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +59,9 @@
 		1B36412725A520F6008EAC67 /* FinderLost */ = {
 			isa = PBXGroup;
 			children = (
-				1B36412825A520F6008EAC67 /* FinderLostApp.swift */,
-				1B36412A25A520F6008EAC67 /* ContentView.swift */,
-				1B36412C25A520F9008EAC67 /* Assets.xcassets */,
-				1B36413125A520F9008EAC67 /* Info.plist */,
+				55B6CB9626B1C48F000A973F /* App */,
 				1B36412E25A520F9008EAC67 /* Preview Content */,
+				55B6CB9526B1C473000A973F /* Resources */,
 			);
 			path = FinderLost;
 			sourceTree = "<group>";
@@ -69,6 +74,49 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		55B6CB9526B1C473000A973F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B36413125A520F9008EAC67 /* Info.plist */,
+				1B36412C25A520F9008EAC67 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55B6CB9626B1C48F000A973F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CB9726B1CFB0000A973F /* Base */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55B6CB9726B1CFB0000A973F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CB9326B1C467000A973F /* AppDelegate.swift */,
+				1B36412825A520F6008EAC67 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		58898B8ACB680B23B0A791B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				792E42DCFD2D37EDF3C399EA /* Pods-FinderLost.debug.xcconfig */,
+				DF30EF69FCABBC92A95FB5E5 /* Pods-FinderLost.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F914FEEDA2F567E31CA38ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B600CFD4640DC8E836F3E39 /* Pods_FinderLost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +124,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B36413425A520F9008EAC67 /* Build configuration list for PBXNativeTarget "FinderLost" */;
 			buildPhases = (
+				914597B67FD2020E697EF262 /* [CP] Check Pods Manifest.lock */,
 				1B36412125A520F6008EAC67 /* Sources */,
 				1B36412225A520F6008EAC67 /* Frameworks */,
 				1B36412325A520F6008EAC67 /* Resources */,
@@ -133,13 +182,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		914597B67FD2020E697EF262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinderLost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B36412125A520F6008EAC67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B36412B25A520F6008EAC67 /* ContentView.swift in Sources */,
-				1B36412925A520F6008EAC67 /* FinderLostApp.swift in Sources */,
+				55B6CB9426B1C467000A973F /* AppDelegate.swift in Sources */,
+				1B36412925A520F6008EAC67 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +338,7 @@
 		};
 		1B36413525A520F9008EAC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792E42DCFD2D37EDF3C399EA /* Pods-FinderLost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -271,8 +346,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FinderLost/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y8G83BS5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FinderLost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = FinderLost/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,12 +355,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost.FinderLost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1B36413625A520F9008EAC67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF30EF69FCABBC92A95FB5E5 /* Pods-FinderLost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +369,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FinderLost/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y8G83BS5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FinderLost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = FinderLost/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.finderlost.FinderLost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
