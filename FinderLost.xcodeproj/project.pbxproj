@@ -13,6 +13,8 @@
 		55B6CB9426B1C467000A973F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9326B1C467000A973F /* AppDelegate.swift */; };
 		55B6CB9C26B204DA000A973F /* BaseDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9B26B204DA000A973F /* BaseDeinit.swift */; };
 		55B6CB9E26B20529000A973F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9D26B20529000A973F /* BaseViewController.swift */; };
+		55B6CBA326B206FF000A973F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CBA226B206FF000A973F /* SplashViewController.swift */; };
+		55B6CBA626B20D64000A973F /* Modifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CBA526B20D64000A973F /* Modifiable.swift */; };
 		A66FCB8BA56B8A16FB8FE4ED /* Pods_FinderLost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B600CFD4640DC8E836F3E39 /* Pods_FinderLost.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		55B6CB9326B1C467000A973F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B6CB9B26B204DA000A973F /* BaseDeinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDeinit.swift; sourceTree = "<group>"; };
 		55B6CB9D26B20529000A973F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		55B6CBA226B206FF000A973F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		55B6CBA526B20D64000A973F /* Modifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiable.swift; sourceTree = "<group>"; };
 		792E42DCFD2D37EDF3C399EA /* Pods-FinderLost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderLost.debug.xcconfig"; path = "Target Support Files/Pods-FinderLost/Pods-FinderLost.debug.xcconfig"; sourceTree = "<group>"; };
 		DF30EF69FCABBC92A95FB5E5 /* Pods-FinderLost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinderLost.release.xcconfig"; path = "Target Support Files/Pods-FinderLost/Pods-FinderLost.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +94,8 @@
 		55B6CB9626B1C48F000A973F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				55B6CBA426B20D49000A973F /* Utilities */,
+				55B6CB9F26B206BC000A973F /* Modules */,
 				55B6CB9726B1CFB0000A973F /* Base */,
 			);
 			path = App;
@@ -112,6 +118,38 @@
 				55B6CB9D26B20529000A973F /* BaseViewController.swift */,
 			);
 			path = Architecture;
+			sourceTree = "<group>";
+		};
+		55B6CB9F26B206BC000A973F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CBA026B206C6000A973F /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		55B6CBA026B206C6000A973F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CBA126B206DD000A973F /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		55B6CBA126B206DD000A973F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CBA226B206FF000A973F /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55B6CBA426B20D49000A973F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55B6CBA526B20D64000A973F /* Modifiable.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		58898B8ACB680B23B0A791B5 /* Pods */ = {
@@ -230,6 +268,8 @@
 				55B6CB9E26B20529000A973F /* BaseViewController.swift in Sources */,
 				1B36412925A520F6008EAC67 /* SceneDelegate.swift in Sources */,
 				55B6CB9C26B204DA000A973F /* BaseDeinit.swift in Sources */,
+				55B6CBA326B206FF000A973F /* SplashViewController.swift in Sources */,
+				55B6CBA626B20D64000A973F /* Modifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
