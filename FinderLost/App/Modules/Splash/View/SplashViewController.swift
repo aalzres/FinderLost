@@ -22,3 +22,5 @@ final class SplashViewControllerImpl: BaseViewControllerImpl {
         splashImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
 }
+
+struct ContentView: View { var body: some View { Text("Hola Mundo") } }

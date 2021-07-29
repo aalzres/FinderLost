@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func configureWindow(_ scene: UIScene) {
         guard let scene = scene as? UIWindowScene else { return }
         let window = UIWindow(windowScene: scene)
-        window.rootViewController = SplashViewControllerImpl()
+        window.rootViewController = UIHostingController(rootView: ContentView())
         #warning("@philo: TODO change color by background")
         window.backgroundColor = .white
         self.window = window
