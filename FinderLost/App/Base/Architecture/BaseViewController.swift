@@ -9,4 +9,18 @@ import SwiftUI
 
 protocol BaseViewController: AnyObject { }
 
-open class BaseViewControllerImpl: UIViewController, BaseViewController { }
+open class BaseViewControllerImpl: UIViewController, BaseViewController {
+    open override func viewDidLoad() {
+        super.viewDidLoad()
+        setupView()
+    }
+
+    open func setupView() {
+        #warning("@philo: TODO change to .backgroundColor")
+        view.backgroundColor = .white
+    }
+
+    deinit {
+        BaseDeinit.shared.printDeinit(self)
+    }
+}
