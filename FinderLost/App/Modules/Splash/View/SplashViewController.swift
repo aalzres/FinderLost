@@ -7,20 +7,14 @@
 
 import SwiftUI
 
-final class SplashViewControllerImpl: BaseViewControllerImpl {
-    lazy var splashImageView = UIImageView()
-        .set(\.image, splashImage)
-    
-    lazy var splashImage = UIImage(named: "splash_logo")
-
-    override func setupView() {
-        super.setupView()
-
-        view.addSubview(splashImageView)
-        splashImageView.translatesAutoresizingMaskIntoConstraints = false
-        splashImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        splashImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+struct SplashView: View {
+    var body: some View {
+        Image("splash_logo")
     }
 }
 
-struct ContentView: View { var body: some View { Text("Hola Mundo") } }
+struct SplashView_Previews: PreviewProvider {
+    static var previews: some View {
+        SplashView()
+    }
+}
