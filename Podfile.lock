@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: d3f62145ce356f9bb9bf9408cc6516a6d3cce16d
+PODS:
+  - FLComponents (0.1.5-beta)
 
-COCOAPODS: 1.10.1
+DEPENDENCIES:
+  - FLComponents (= 0.1.5-beta)
+
+SPEC REPOS:
+  "git@gitlab.com:finder-lost/ios/ios-finderlostspecs.git":
+    - FLComponents
+
+SPEC CHECKSUMS:
+  FLComponents: 15ae78be767aa16078162140949879e44e9406fd
+
+PODFILE CHECKSUM: 65d41ca50a7d52d89f9a71d93346392302cb0d20
+
+COCOAPODS: 1.10.2
