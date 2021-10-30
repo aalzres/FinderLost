@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension CGFloat {
+extension CGFloat {
     static let paddingXXXS: CGFloat = 2
     static let paddingXXS: CGFloat = 4
     static let paddingXS: CGFloat = 8

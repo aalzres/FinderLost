@@ -6,8 +6,6 @@
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
-import UIKit
-
 enum ColorPalette: String, CaseIterable {
     case background
     case dark

@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-public extension Color {
+extension Color {
     static var background: Color { ColorPalette.background.color }
     static var dark: Color { ColorPalette.dark.color }
     static var dark10: Color { ColorPalette.dark.color(.tone10) }
