@@ -16,7 +16,6 @@ open class BaseViewControllerImpl: UIViewController, BaseViewController {
     }
 
     open func setupView() {
-        #warning("@philo: TODO change to .backgroundColor")
         view.backgroundColor = .white
     }
 
