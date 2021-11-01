@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func configureWindow(_ scene: UIScene) {
         guard let scene = scene as? UIWindowScene else { return }
         let window = UIWindow(windowScene: scene)
-        window.rootViewController = UIHostingController(rootView: SplashView())
+        window.rootViewController = UIHostingController(rootView: MainView())
         window.backgroundColor = .white
         self.window = window
         window.makeKeyAndVisible()

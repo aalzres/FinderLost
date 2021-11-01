@@ -15,6 +15,8 @@
 		552AEA3E272DE03B00FF4A55 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AEA3B272DE03B00FF4A55 /* UIColor+.swift */; };
 		552AEA41272DE04900FF4A55 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AEA40272DE04900FF4A55 /* Dimensions.swift */; };
 		552AEA44272DE0A100FF4A55 /* Modifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AEA43272DE0A000FF4A55 /* Modifiable.swift */; };
+		552AEA47272F4AAC00FF4A55 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AEA46272F4AAC00FF4A55 /* MainView.swift */; };
+		552AEA49272F548C00FF4A55 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552AEA48272F548C00FF4A55 /* Colors.xcassets */; };
 		55B6CB9426B1C467000A973F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9326B1C467000A973F /* AppDelegate.swift */; };
 		55B6CB9C26B204DA000A973F /* BaseDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9B26B204DA000A973F /* BaseDeinit.swift */; };
 		55B6CB9E26B20529000A973F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6CB9D26B20529000A973F /* BaseViewController.swift */; };
@@ -34,6 +36,8 @@
 		552AEA3B272DE03B00FF4A55 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		552AEA40272DE04900FF4A55 /* Dimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
 		552AEA43272DE0A000FF4A55 /* Modifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiable.swift; sourceTree = "<group>"; };
+		552AEA46272F4AAC00FF4A55 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		552AEA48272F548C00FF4A55 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		55B6CB9326B1C467000A973F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B6CB9B26B204DA000A973F /* BaseDeinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDeinit.swift; sourceTree = "<group>"; };
 		55B6CB9D26B20529000A973F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -125,9 +129,18 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		552AEA45272F477600FF4A55 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				552AEA46272F4AAC00FF4A55 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		55B6CB9526B1C473000A973F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				552AEA48272F548C00FF4A55 /* Colors.xcassets */,
 				1B36413125A520F9008EAC67 /* Info.plist */,
 				1B36412C25A520F9008EAC67 /* Assets.xcassets */,
 			);
@@ -167,6 +180,7 @@
 		55B6CB9F26B206BC000A973F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				552AEA45272F477600FF4A55 /* MainView */,
 				55B6CBA026B206C6000A973F /* Splash */,
 			);
 			path = Modules;
@@ -263,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552AEA49272F548C00FF4A55 /* Colors.xcassets in Resources */,
 				1B36413025A520F9008EAC67 /* Preview Assets.xcassets in Resources */,
 				1B36412D25A520F9008EAC67 /* Assets.xcassets in Resources */,
 			);
@@ -307,6 +322,7 @@
 				552AEA3C272DE03B00FF4A55 /* Color+.swift in Sources */,
 				55B6CB9E26B20529000A973F /* BaseViewController.swift in Sources */,
 				1B36412925A520F6008EAC67 /* SceneDelegate.swift in Sources */,
+				552AEA47272F4AAC00FF4A55 /* MainView.swift in Sources */,
 				55B6CB9C26B204DA000A973F /* BaseDeinit.swift in Sources */,
 				55B6CBA326B206FF000A973F /* SplashViewController.swift in Sources */,
 				552AEA41272DE04900FF4A55 /* Dimensions.swift in Sources */,
