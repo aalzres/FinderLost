@@ -10,9 +10,9 @@ enum ColorPalette: String, CaseIterable {
     case background
     case dark
     case error
+    case first
     case information
     case light
-    case first
     case second
     case success
     case text
